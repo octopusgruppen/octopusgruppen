@@ -27,5 +27,18 @@ time, mark, audio, video {
 header {
     width: 100%;
     height: 80px;
-    background-color: lightgeay;
+    background-color: lightgray;
+}
+nav {
+    height: 100%;
+}
+nav > ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 100%;
+}
+li {
+    flex-direction: row;
+    list-style-type: none;
 }
