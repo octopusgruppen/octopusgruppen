@@ -48,12 +48,14 @@ li{
 }
 .nav{
     text-decoration: none;
-    color: #000;
+    border: none;
+    color: white;
     flex-grow: 1;
     text-align: center;
-    background-color: grey;
+    background-color: #4CAF50;
     border: solid 1px black;
     padding: 10px;
+
 
 }
 h1{
@@ -62,6 +64,11 @@ h1{
     padding: 10px;
     font-family: 'Varela Round', sans-serif;
 }
-footer{
-    
+.container {
+    display: flex;
+}
+.container > div {
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 200px;
 }
