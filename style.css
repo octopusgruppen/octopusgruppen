@@ -46,18 +46,22 @@ li{
     flex-basis: 25%;
     display: flex;
 }
-a{
+.nav{
     text-decoration: none;
-    justify-content: center;
-    align-items: center;
     color: #000;
-}
-button {
     flex-grow: 1;
+    text-align: center;
+    background-color: grey;
+    border: solid 1px black;
+    padding: 10px;
+
 }
 h1{
     font-size: 40px;
     text-align: center;
     padding: 10px;
     font-family: 'Varela Round', sans-serif;
+}
+footer{
+    
 }
