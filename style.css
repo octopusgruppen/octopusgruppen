@@ -24,3 +24,8 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+header {
+    width: 100%;
+    height: 80px;
+    background-color: lightgeay;
+}
