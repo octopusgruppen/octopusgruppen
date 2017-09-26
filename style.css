@@ -137,7 +137,9 @@ aside > p {
     color: #F3EFEF;
 }
 
-
+::-webkit-scrollbar { 
+    display: none; 
+}
 
 
 /*  For responsive sites */
