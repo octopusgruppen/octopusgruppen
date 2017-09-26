@@ -24,8 +24,9 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
 body { 
-    background: url(img/cream_dust.png) repeat 0 0;
+    background: url(http://www.hobbitontours.com/media/1162/hobbiton-movie-set-18.jpg?center=0.44162436548223349%2C0.49833333333333335&mode=crop&width=1272&height=716&rnd=131219724030000000) no-repeat fixed center;
     height: 100%;
 }
 
@@ -59,12 +60,11 @@ li{
     color: black;
     flex-grow: 1;
     text-align: center;
-    background: linear-gradient(45deg, #eee 25%, transparent 25%, transparent 75%, #eee 75%, #eee 100%);    
+    background: linear-gradient(45deg, white 25%, #eee 100%);
     border: solid 1px #707070;
     padding: 10px;
-
-
 }
+
 h1{
     padding: 0px;
     color: #000000;
@@ -95,6 +95,7 @@ h1{
 .container > div > h2 {
     position: absolute;
 }
+
 
 #menucontent {
     display: flex;
@@ -143,3 +144,38 @@ h1{
     font-size: 15px;
 }
 
+#map {
+	display: flex;
+	align-content: center;
+	border: solid 1px;
+  height: 400px;
+	max-width: auto;
+
+
+}
+
+.mapcontainer {
+	background-color: #eee
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	margin-top: 30px;
+	max-width: 500px;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 10px #eee;
+}
+
+.secondp {
+	background-color: #eee;
+	font-size: 20px;
+	color: green;
+}
+
+.firstp {
+	background-color: #eee;
+	font-size: 30px;
+	color: red;
+}
