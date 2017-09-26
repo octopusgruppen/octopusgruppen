@@ -24,11 +24,13 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+body {
+    background: url(http://www.hobbitontours.com/media/1162/hobbiton-movie-set-18.jpg?center=0.44162436548223349%2C0.49833333333333335&mode=crop&width=1272&height=716&rnd=131219724030000000) no-repeat fixed center;
+}
 header {
     width: 100%;
     height: 80px;
-    background: linear-gradient( green 15%, #4CAF50 60%);
+    background-color: #eee;
 
 }
 nav {
@@ -36,7 +38,6 @@ nav {
 }
 nav > ul {
     display: flex;
-   /* justify-content: space-between; */
     align-items: flex-end;
     height: 100%;
 }
@@ -53,17 +54,20 @@ li{
     color: black;
     flex-grow: 1;
     text-align: center;
-    background-color: #4CAF50;
-    border: solid 1px black;
+    background: linear-gradient(45deg, white 25%, #eee 100%);
+    border: solid 1px #707070;
     padding: 10px;
 
 
 }
 h1{
-    font-size: 40px;
+    padding: 0px;
+    color: #000000;
+    font-family: "Great Vibes", cursive;
+    font-size: 45px;
+    font-weight: bold;
     text-align: center;
-    padding: 10px;
-    font-family: 'Varela Round', sans-serif;
+    text-shadow: 0 1px 1px #fff;
 }
 .container {
     display: flex;
@@ -85,4 +89,41 @@ h1{
 }
 .container > div > h2 {
     position: absolute;
+}
+
+#map {
+	display: flex;
+	align-content: center;
+	border: solid 1px;
+  height: 400px;
+	max-width: auto;
+
+
+}
+
+.mapcontainer {
+	background-color: #eee
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	margin-top: 30px;
+	max-width: 500px;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: px;
+	border: solid 10px #eee;
+}
+
+.secondp {
+	background-color: #eee;
+	font-size: 20px;
+	color: green;
+}
+
+.firstp {
+	background-color: #eee;
+	font-size: 30px;
+	color: red;
 }
