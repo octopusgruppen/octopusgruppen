@@ -24,11 +24,13 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+body { 
+    background: url(img/cream_dust.png) repeat 0 0;
+}
 header {
     width: 100%;
     height: 80px;
-    background: linear-gradient( green 15%, #4CAF50 60%);
+    background-color: #eee;
 
 }
 nav {
@@ -36,7 +38,6 @@ nav {
 }
 nav > ul {
     display: flex;
-   /* justify-content: space-between; */
     align-items: flex-end;
     height: 100%;
 }
@@ -53,17 +54,20 @@ li{
     color: black;
     flex-grow: 1;
     text-align: center;
-    background-color: #4CAF50;
-    border: solid 1px black;
+    background: linear-gradient(45deg, #eee 25%, transparent 25%, transparent 75%, #eee 75%, #eee 100%);    
+    border: solid 1px #707070;
     padding: 10px;
 
 
 }
 h1{
-    font-size: 40px;
+    padding: 0px;
+    color: #000000;
+    font-family: "Great Vibes", cursive;
+    font-size: 45px;
+    font-weight: bold;
     text-align: center;
-    padding: 10px;
-    font-family: 'Varela Round', sans-serif;
+    text-shadow: 0 1px 1px #fff;
 }
 .container {
     display: flex;
